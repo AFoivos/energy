@@ -1,0 +1,61 @@
+# Python environments and bytecode
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Packaging and coverage
+build/
+dist/
+*.egg-info/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Local credentials
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+credentials.json
+service-account*.json
+*.pem
+*.key
+
+# Data stays local; retain directory markers and documentation
+/data/raw/*
+!/data/raw/.gitkeep
+!/data/raw/README.md
+/data/processed/*
+!/data/processed/.gitkeep
+!/data/processed/README.md
+
+# Generated outputs
+/outputs/*
+!/outputs/README.md
+!/outputs/reports/
+!/outputs/figures/
+!/outputs/logs/
+/outputs/reports/*
+!/outputs/reports/.gitkeep
+!/outputs/reports/README.md
+/outputs/figures/*
+!/outputs/figures/.gitkeep
+!/outputs/figures/README.md
+/outputs/logs/*
+!/outputs/logs/.gitkeep
+!/outputs/logs/README.md
+
+# Spreadsheet and editor temporary files
+~$*
+*.tmp
+*.swp
+*.swo
+.DS_Store
+.AppleDouble/
